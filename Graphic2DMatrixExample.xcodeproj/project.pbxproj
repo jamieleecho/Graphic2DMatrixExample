@@ -17,6 +17,7 @@
 		521B40DC129013A200023F35 /* JCPolygonSet.mm in Sources */ = {isa = PBXBuildFile; fileRef = 521B40DB129013A200023F35 /* JCPolygonSet.mm */; };
 		521B410E1290225800023F35 /* JCPolygonSetView.mm in Sources */ = {isa = PBXBuildFile; fileRef = 521B410D1290225800023F35 /* JCPolygonSetView.mm */; };
 		521B424D1290425E00023F35 /* JCGraphic2DMatrixController.mm in Sources */ = {isa = PBXBuildFile; fileRef = 521B424C1290425E00023F35 /* JCGraphic2DMatrixController.mm */; };
+		52C87A741290510700A1F2CC /* README in Resources */ = {isa = PBXBuildFile; fileRef = 52C87A731290510700A1F2CC /* README */; };
 		8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 089C165CFE840E0CC02AAC07 /* InfoPlist.strings */; };
 		8D11072D0486CEB800E47090 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; settings = {ATTRIBUTES = (); }; };
 		8D11072F0486CEB800E47090 /* Cocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1058C7A1FEA54F0111CA2CBB /* Cocoa.framework */; };
@@ -47,6 +48,7 @@
 		521B410D1290225800023F35 /* JCPolygonSetView.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JCPolygonSetView.mm; sourceTree = "<group>"; };
 		521B424B1290425E00023F35 /* JCGraphic2DMatrixController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JCGraphic2DMatrixController.h; sourceTree = "<group>"; };
 		521B424C1290425E00023F35 /* JCGraphic2DMatrixController.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; path = JCGraphic2DMatrixController.mm; sourceTree = "<group>"; };
+		52C87A731290510700A1F2CC /* README */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README; sourceTree = "<group>"; };
 		8D1107310486CEB800E47090 /* Graphic2DMatrixExample-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "Graphic2DMatrixExample-Info.plist"; sourceTree = "<group>"; };
 		8D1107320486CEB800E47090 /* Graphic2DMatrixExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Graphic2DMatrixExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -108,6 +110,7 @@
 				29B97317FDCFA39411CA2CEA /* Resources */,
 				29B97323FDCFA39411CA2CEA /* Frameworks */,
 				19C28FACFE9D520D11CA2CBB /* Products */,
+				52C87A731290510700A1F2CC /* README */,
 			);
 			name = Graphic2DMatrixExample;
 			sourceTree = "<group>";
@@ -225,6 +228,7 @@
 			files = (
 				8D11072B0486CEB800E47090 /* InfoPlist.strings in Resources */,
 				1DDD58160DA1D0A300B32029 /* MainMenu.xib in Resources */,
+				52C87A741290510700A1F2CC /* README in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

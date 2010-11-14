@@ -62,6 +62,8 @@ static jcho::Matrix<double> scaleMatrix(double x, double y) {
   if (self = [super init]) {
     polygons = [[NSMutableSet alloc] init];
     [polygons addObject:[JCPolygon squarePolygonWithPosition:NSMakePoint(0, 0) andSize:20]];
+    [polygons addObject:[JCPolygon squarePolygonWithPosition:NSMakePoint(0, 0) andSize:30]];
+    [polygons addObject:[JCPolygon squarePolygonWithPosition:NSMakePoint(0, 0) andSize:40]];
     [polygons addObject:[JCPolygon starPolygonWithPosition:NSMakePoint(-100, 0) andSize:80]];
     [polygons addObject:[JCPolygon rectanglePolygonWithPosition:NSMakePoint(100, 100) andSize:NSMakeSize(100, 20)]];
     [polygons addObject:[JCPolygon squarePolygonWithPosition:NSMakePoint(70, -70) andSize:50]];
