@@ -71,7 +71,8 @@ static jcho::Matrix<double> scaleMatrix(double x, double y) {
     [polygons addObject:[JCPolygon starPolygonWithPosition:NSMakePoint(-40, -80) andSize:30]];
     [polygons addObject:[JCPolygon starPolygonWithPosition:NSMakePoint(-40, -80) andSize:30]];
     [polygons addObject:[JCPolygon starPolygonWithPosition:NSMakePoint(0, -400) andSize:60]];
-    [polygons addObject:[JCPolygon starPolygonWithPosition:NSMakePoint(0, 200) andSize:20]];
+    [polygons addObject:[JCPolygon isabellaPolygonWithPosition:NSMakePoint(0, 150) andSize:NSMakeSize(20, 30)]];
+    [polygons addObject:[JCPolygon johanPolygonWithPosition:NSMakePoint(50, 0) andSize:NSMakeSize(30, 15)]];
   }
   return self;
 }
