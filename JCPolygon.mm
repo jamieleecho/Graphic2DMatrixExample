@@ -150,7 +150,7 @@ static jcho::Matrix<double> makePoint(double x, double y) {
 
 -(id)initWithPoints:(const std::vector<jcho::Matrix<double> > &)thePoints {
   if (self = [super init]) {
-    points = new std::vector<jcho::Matrix<double> >(thePoints);
+    points = thePoints;
   }
   
   return self;
@@ -170,11 +170,6 @@ static jcho::Matrix<double> makePoint(double x, double y) {
   return [self initWithPoints:std::vector<jcho::Matrix<double> >()];
 }
 
--(void)dealloc {
-  delete points;
-  [super dealloc];
-}
-
--(const std::vector<jcho::Matrix<double> > &)points { return *points; }
+-(const std::vector<jcho::Matrix<double> > &)points { return points; }
 
 @end

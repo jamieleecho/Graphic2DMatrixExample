@@ -12,7 +12,7 @@
 
 
 @interface JCPolygon : NSObject {
-  @private std::vector<jcho::Matrix<double> > *points;
+  @private std::vector<jcho::Matrix<double> > points;
 }
 
 +(JCPolygon *)squarePolygonWithPosition:(NSPoint)position andSize:(float)size;
