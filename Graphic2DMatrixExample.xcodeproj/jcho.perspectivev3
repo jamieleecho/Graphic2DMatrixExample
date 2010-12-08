@@ -329,7 +329,7 @@
 										<key>_historyCapacity</key>
 										<integer>0</integer>
 										<key>bookmark</key>
-										<string>529124471296CAC0003977B7</string>
+										<string>52CF270A1297284300E352E7</string>
 										<key>history</key>
 										<array>
 											<string>521B40BB1290102400023F35</string>
@@ -347,7 +347,7 @@
 											<string>52292469129488D00090C427</string>
 											<string>529124441296CAC0003977B7</string>
 											<string>529124451296CAC0003977B7</string>
-											<string>529124461296CAC0003977B7</string>
+											<string>529124471296CAC0003977B7</string>
 										</array>
 									</dict>
 									<key>SplitCount</key>
@@ -361,18 +361,18 @@
 							<key>GeometryConfiguration</key>
 							<dict>
 								<key>Frame</key>
-								<string>{{0, 0}, {899, 458}}</string>
+								<string>{{0, 0}, {899, 451}}</string>
 								<key>RubberWindowFrame</key>
 								<string>48 50 1232 728 0 0 1280 778 </string>
 							</dict>
 							<key>Module</key>
 							<string>PBXNavigatorGroup</string>
 							<key>Proportion</key>
-							<string>458pt</string>
+							<string>451pt</string>
 						</dict>
 						<dict>
 							<key>Proportion</key>
-							<string>224pt</string>
+							<string>231pt</string>
 							<key>Tabs</key>
 							<array>
 								<dict>
@@ -386,7 +386,7 @@
 									<key>GeometryConfiguration</key>
 									<dict>
 										<key>Frame</key>
-										<string>{{10, 27}, {899, 197}}</string>
+										<string>{{10, 27}, {899, 204}}</string>
 										<key>RubberWindowFrame</key>
 										<string>48 50 1232 728 0 0 1280 778 </string>
 									</dict>
@@ -470,11 +470,11 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>529124481296CAC0003977B7</string>
+				<string>52CF26FC1297283300E352E7</string>
 				<string>1CA23ED40692098700951B8B</string>
-				<string>529124491296CAC0003977B7</string>
+				<string>52CF26FD1297283300E352E7</string>
 				<string>521B40B81290102400023F35</string>
-				<string>5291244A1296CAC0003977B7</string>
+				<string>52CF26FE1297283300E352E7</string>
 				<string>1CA23EDF0692099D00951B8B</string>
 				<string>1CA23EE00692099D00951B8B</string>
 				<string>1CA23EE10692099D00951B8B</string>
@@ -623,14 +623,14 @@
 			</array>
 			<key>TableOfContents</key>
 			<array>
-				<string>5291244B1296CAC0003977B7</string>
+				<string>52CF26FF1297283300E352E7</string>
 				<string>1CCC7628064C1048000F2A68</string>
 				<string>1CCC7629064C1048000F2A68</string>
-				<string>5291244C1296CAC0003977B7</string>
-				<string>5291244D1296CAC0003977B7</string>
-				<string>5291244E1296CAC0003977B7</string>
-				<string>5291244F1296CAC0003977B7</string>
-				<string>529124501296CAC0003977B7</string>
+				<string>52CF27001297283300E352E7</string>
+				<string>52CF27011297283300E352E7</string>
+				<string>52CF27021297283300E352E7</string>
+				<string>52CF27031297283300E352E7</string>
+				<string>52CF27041297283300E352E7</string>
 			</array>
 			<key>ToolbarConfigUserDefaultsMinorVersion</key>
 			<string>2</string>
@@ -664,8 +664,8 @@
 	<integer>5</integer>
 	<key>WindowOrderList</key>
 	<array>
-		<string>529124511296CAC0003977B7</string>
-		<string>529124521296CAC0003977B7</string>
+		<string>52CF27061297283300E352E7</string>
+		<string>52CF27071297283300E352E7</string>
 		<string>/Users/jcho/Documents/Projects/Accelerate/Part 2/Graphic2DMatrixExample.xcodeproj</string>
 	</array>
 	<key>WindowString</key>
