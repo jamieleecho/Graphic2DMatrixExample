@@ -6,6 +6,8 @@
 //  Copyright 2010 Jamie Cho. All rights reserved.
 //
 
+#import <OpenGL/OpenGl.h>
+#import <OpenGL/gl.h>
 #import "JCPolygonSetView.h"
 #import "JCPolygon.h"
 
@@ -19,38 +21,55 @@
 }
 
 - (void)drawRect:(NSRect)dirtyRect {
-  NSSize size = [self bounds].size;
-  [self setBoundsOrigin:NSMakePoint(-size.width/2, -size.height/2)];
-  [[NSColor whiteColor] setFill];
-  [[NSColor blackColor] setStroke];
-  [[NSBezierPath bezierPathWithRect:NSMakeRect(-size.width/2, -size.height/2, size.width, size.height)] fill];
-  [[NSBezierPath bezierPathWithRect:NSMakeRect(-size.width/2, -size.height/2, size.width, size.height)] stroke];
-  [[NSColor blueColor] setStroke];
-  NSBezierPath *path = [NSBezierPath bezierPath];
-  [path moveToPoint:NSMakePoint(0, size.height/2)];
-  [path lineToPoint:NSMakePoint(0, -size.height/2)];
-  [path moveToPoint:NSMakePoint(size.width/2, 0)];
-  [path lineToPoint:NSMakePoint(-size.width/2, 0)];
-  [path stroke];
+    NSSize size = self.bounds.size;
 
-  [[NSColor blackColor] setStroke];  
-  path = [NSBezierPath bezierPath];
-  for(JCPolygon *polygon in [polygons polygonsAtTimeStep]) {
-    const std::vector<jcho::Matrix<double> > &points = [polygon points];
-    if (points.size() == 0) continue;
-    NSPoint firstPoint;
-    for(std::vector<jcho::Matrix<double> >::const_iterator it = points.begin(); it!=points.end(); ++it) {
-      NSPoint point = NSMakePoint((float)(*it).get(0, 0), (float)(*it).get(1, 0));    
-      if (it == points.begin()) {
-        firstPoint = point;
-        [path moveToPoint:point];
-      } else {
-        [path lineToPoint:point];
-      }
+	// Set the new viewport size
+	glViewport(0, 0, (GLint)size.width, (GLint)size.height);
+    
+	// Choose the projection matrix to be the matrix 
+	// manipulated by the following calls
+	glMatrixMode(GL_PROJECTION);
+    
+	// Set the projection matrix to be the identity matrix
+	glLoadIdentity();
+    
+	// Define the dimensions of the Orthographic Viewing Volume
+    glOrtho(-size.width/2, size.width/2, size.height/2, -size.height/2, -8, 8.0);
+
+	// Clear the RGB buffer and the depth buffer
+    glColor3f(1.0, 1.0, 1.0);
+    glBegin(GL_QUADS);
+    glVertex2f(-size.width/2, size.width/2);
+    glVertex2f(size.width/2, size.width/2);
+    glVertex2f(size.width/2, -size.width/2);
+    glVertex2f(-size.width/2, -size.width/2);
+    glEnd();
+    
+    // Draw Blue crosshair
+    glColor3f(0, 0, 1);
+    glBegin(GL_LINES);
+    glVertex2f(0, size.height/2);
+    glVertex2f(0, -size.height/2);
+    glVertex2f(size.width/2, 0);
+    glVertex2f(-size.width/2, 0);
+    glEnd();
+    
+    glColor3f(0, 0, 0);
+
+    // Draw individual polygons
+    for(JCPolygon *polygon in [polygons polygonsAtTimeStep]) {
+        const std::vector<jcho::Matrix<double> > &points = [polygon points];
+        if (points.size() == 0) continue;
+
+        glBegin(GL_LINE_LOOP);
+        for(std::vector<jcho::Matrix<double> >::const_iterator it = points.begin(); it!=points.end(); ++it) {
+            NSPoint point = NSMakePoint((float)(*it).get(0, 0), (float)(*it).get(1, 0));    
+            glVertex2f(point.x, point.y);
+        }
+        glEnd();
     }
-    [path lineToPoint:firstPoint];
-  }
-  [path stroke];  
+
+    glFlush();
 }
 
 @end

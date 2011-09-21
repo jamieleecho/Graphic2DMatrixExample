@@ -9,7 +9,7 @@
 #import <Cocoa/Cocoa.h>
 #import "JCPolygonSet.h"
 
-@interface JCPolygonSetView : NSView {
+@interface JCPolygonSetView : NSOpenGLView {
     IBOutlet JCPolygonSet *polygons;
 }
 

@@ -25,7 +25,7 @@
 -(void) awakeFromNib {
   [super awakeFromNib];
   [[self window] performZoom:self];
-  timer = [NSTimer scheduledTimerWithTimeInterval:.02 target:self selector:@selector(tick:) userInfo:nil repeats:YES];
+  timer = [NSTimer scheduledTimerWithTimeInterval:.01 target:self selector:@selector(tick:) userInfo:nil repeats:YES];
 }
 
 - (void)tick:(NSTimer*)theTimer {

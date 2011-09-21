@@ -9,9 +9,9 @@
 	};
 	256AC3D90F4B6AC300CF3369 /* Graphic2DMatrixExampleAppDelegate.m */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1173, 260}}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 665}}";
 			sepNavSelRange = "{0, 0}";
-			sepNavVisRange = "{0, 425}";
+			sepNavVisRange = "{0, 420}";
 			sepNavWindowFrame = "{{46, 0}, {1302, 778}}";
 		};
 	};
@@ -34,7 +34,7 @@
 				PBXFileTableDataSourceColumnSortingKey = PBXFileDataSource_Filename_ColumnID;
 				PBXFileTableDataSourceColumnWidthsKey = (
 					20,
-					660,
+					10,
 					20,
 					48,
 					43,
@@ -51,31 +51,111 @@
 					PBXFileDataSource_Target_ColumnID,
 				);
 			};
-			PBXPerProjectTemplateStateSaveDate = 311896109;
-			PBXWorkspaceStateSaveDate = 311896109;
+			PBXPerProjectTemplateStateSaveDate = 314305890;
+			PBXWorkspaceStateSaveDate = 314305890;
 		};
 		perUserProjectItems = {
+			52060ED812BBEEF100B0EA80 /* PBXTextBookmark */ = 52060ED812BBEEF100B0EA80 /* PBXTextBookmark */;
+			52060ED912BBEEF100B0EA80 /* PBXTextBookmark */ = 52060ED912BBEEF100B0EA80 /* PBXTextBookmark */;
+			52060EDA12BBEEF100B0EA80 /* PBXTextBookmark */ = 52060EDA12BBEEF100B0EA80 /* PBXTextBookmark */;
+			52060EDB12BBEEF100B0EA80 /* PBXTextBookmark */ = 52060EDB12BBEEF100B0EA80 /* PBXTextBookmark */;
+			52060EDC12BBEEF100B0EA80 /* PBXTextBookmark */ = 52060EDC12BBEEF100B0EA80 /* PBXTextBookmark */;
+			52060EDD12BBEEF100B0EA80 /* PBXTextBookmark */ = 52060EDD12BBEEF100B0EA80 /* PBXTextBookmark */;
+			52060EDE12BBEEF100B0EA80 /* PBXTextBookmark */ = 52060EDE12BBEEF100B0EA80 /* PBXTextBookmark */;
+			52060EDF12BBEEF100B0EA80 /* PBXTextBookmark */ = 52060EDF12BBEEF100B0EA80 /* PBXTextBookmark */;
 			521B40BB1290102400023F35 /* PBXTextBookmark */ = 521B40BB1290102400023F35 /* PBXTextBookmark */;
-			521B4118129023D800023F35 /* PBXTextBookmark */ = 521B4118129023D800023F35 /* PBXTextBookmark */;
 			521B41391290262A00023F35 /* PBXTextBookmark */ = 521B41391290262A00023F35 /* PBXTextBookmark */;
 			521B413F129026D600023F35 /* PBXTextBookmark */ = 521B413F129026D600023F35 /* PBXTextBookmark */;
 			521B4141129026D600023F35 /* PBXTextBookmark */ = 521B4141129026D600023F35 /* PBXTextBookmark */;
 			521B4142129026D600023F35 /* PBXTextBookmark */ = 521B4142129026D600023F35 /* PBXTextBookmark */;
 			521B41E41290364600023F35 /* PBXTextBookmark */ = 521B41E41290364600023F35 /* PBXTextBookmark */;
-			521B4202129037E400023F35 /* PBXTextBookmark */ = 521B4202129037E400023F35 /* PBXTextBookmark */;
 			521B429D1290472600023F35 /* PBXTextBookmark */ = 521B429D1290472600023F35 /* PBXTextBookmark */;
-			521B42C912904B3400023F35 /* PBXTextBookmark */ = 521B42C912904B3400023F35 /* PBXTextBookmark */;
 			52292465129488D00090C427 /* PBXTextBookmark */ = 52292465129488D00090C427 /* PBXTextBookmark */;
-			52292467129488D00090C427 /* PBXTextBookmark */ = 52292467129488D00090C427 /* PBXTextBookmark */;
 			52292469129488D00090C427 /* PBXTextBookmark */ = 52292469129488D00090C427 /* PBXTextBookmark */;
-			529124441296CAC0003977B7 /* PBXTextBookmark */ = 529124441296CAC0003977B7 /* PBXTextBookmark */;
-			529124451296CAC0003977B7 /* PBXTextBookmark */ = 529124451296CAC0003977B7 /* PBXTextBookmark */;
-			529124471296CAC0003977B7 /* PBXTextBookmark */ = 529124471296CAC0003977B7 /* PBXTextBookmark */;
-			52CF270A1297284300E352E7 /* PBXTextBookmark */ = 52CF270A1297284300E352E7 /* PBXTextBookmark */;
 		};
 		sourceControlManager = 521B409212900DE600023F35 /* Source Control */;
 		userBuildSettings = {
 		};
+	};
+	52060ED812BBEEF100B0EA80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 521B40BF1290105C00023F35 /* JCPolygon.h */;
+		name = "JCPolygon.h: 24";
+		rLen = 14;
+		rLoc = 733;
+		rType = 0;
+		vrLen = 958;
+		vrLoc = 0;
+	};
+	52060ED912BBEEF100B0EA80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 521B40C01290105C00023F35 /* JCPolygon.mm */;
+		name = "JCPolygon.mm: 7";
+		rLen = 0;
+		rLoc = 171;
+		rType = 0;
+		vrLen = 2199;
+		vrLoc = 0;
+	};
+	52060EDA12BBEEF100B0EA80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 521B40DA129013A200023F35 /* JCPolygonSet.h */;
+		name = "JCPolygonSet.h: 23";
+		rLen = 22;
+		rLoc = 484;
+		rType = 0;
+		vrLen = 533;
+		vrLoc = 0;
+	};
+	52060EDB12BBEEF100B0EA80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 521B410C1290225800023F35 /* JCPolygonSetView.h */;
+		name = "JCPolygonSetView.h: 14";
+		rLen = 0;
+		rLoc = 277;
+		rType = 0;
+		vrLen = 285;
+		vrLoc = 0;
+	};
+	52060EDC12BBEEF100B0EA80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 521B410D1290225800023F35 /* JCPolygonSetView.mm */;
+		name = "JCPolygonSetView.mm: 42";
+		rLen = 50;
+		rLoc = 1381;
+		rType = 0;
+		vrLen = 1734;
+		vrLoc = 57;
+	};
+	52060EDD12BBEEF100B0EA80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 256AC3D90F4B6AC300CF3369 /* Graphic2DMatrixExampleAppDelegate.m */;
+		name = "Graphic2DMatrixExampleAppDelegate.m: 1";
+		rLen = 0;
+		rLoc = 0;
+		rType = 0;
+		vrLen = 420;
+		vrLoc = 0;
+	};
+	52060EDE12BBEEF100B0EA80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 521B424C1290425E00023F35 /* JCGraphic2DMatrixController.mm */;
+		name = "JCGraphic2DMatrixController.mm: 6";
+		rLen = 0;
+		rLoc = 136;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 0;
+	};
+	52060EDF12BBEEF100B0EA80 /* PBXTextBookmark */ = {
+		isa = PBXTextBookmark;
+		fRef = 521B424C1290425E00023F35 /* JCGraphic2DMatrixController.mm */;
+		name = "JCGraphic2DMatrixController.mm: 28";
+		rLen = 5;
+		rLoc = 465;
+		rType = 0;
+		vrLen = 721;
+		vrLoc = 0;
 	};
 	521B408512900DC800023F35 /* Graphic2DMatrixExample */ = {
 		isa = PBXExecutable;
@@ -156,22 +236,22 @@
 	};
 	521B40BF1290105C00023F35 /* JCPolygon.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 434}}";
-			sepNavSelRange = "{0, 958}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 665}}";
+			sepNavSelRange = "{733, 14}";
 			sepNavVisRange = "{0, 958}";
 		};
 	};
 	521B40C01290105C00023F35 /* JCPolygon.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 2288}}";
-			sepNavSelRange = "{0, 8884}";
-			sepNavVisRange = "{0, 1116}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 2418}}";
+			sepNavSelRange = "{171, 0}";
+			sepNavVisRange = "{0, 2199}";
 		};
 	};
 	521B40DA129013A200023F35 /* JCPolygonSet.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {838, 448}}";
-			sepNavSelRange = "{229, 222}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 665}}";
+			sepNavSelRange = "{484, 22}";
 			sepNavVisRange = "{0, 533}";
 		};
 	};
@@ -185,28 +265,18 @@
 	};
 	521B410C1290225800023F35 /* JCPolygonSetView.h */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {839, 435}}";
-			sepNavSelRange = "{288, 0}";
-			sepNavVisRange = "{0, 296}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 665}}";
+			sepNavSelRange = "{277, 0}";
+			sepNavVisRange = "{0, 285}";
 		};
 	};
 	521B410D1290225800023F35 /* JCPolygonSetView.mm */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {838, 741}}";
 			sepNavSelRange = "{1381, 50}";
-			sepNavVisRange = "{429, 1362}";
+			sepNavVisRange = "{57, 1734}";
 			sepNavWindowFrame = "{{46, 0}, {1302, 778}}";
 		};
-	};
-	521B4118129023D800023F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 256AC3D90F4B6AC300CF3369 /* Graphic2DMatrixExampleAppDelegate.m */;
-		name = "Graphic2DMatrixExampleAppDelegate.m: 1";
-		rLen = 0;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 431;
-		vrLoc = 0;
 	};
 	521B4132129025E300023F35 /* stl_construct.h */ = {
 		isa = PBXFileReference;
@@ -272,16 +342,6 @@
 		vrLen = 858;
 		vrLoc = 214;
 	};
-	521B4202129037E400023F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 521B410C1290225800023F35 /* JCPolygonSetView.h */;
-		name = "JCPolygonSetView.h: 14";
-		rLen = 0;
-		rLoc = 277;
-		rType = 0;
-		vrLen = 296;
-		vrLoc = 0;
-	};
 	521B424B1290425E00023F35 /* JCGraphic2DMatrixController.h */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {839, 437}}";
@@ -291,9 +351,9 @@
 	};
 	521B424C1290425E00023F35 /* JCGraphic2DMatrixController.mm */ = {
 		uiCtxt = {
-			sepNavIntBoundsRect = "{{0, 0}, {1173, 494}}";
-			sepNavSelRange = "{713, 0}";
-			sepNavVisRange = "{266, 323}";
+			sepNavIntBoundsRect = "{{0, 0}, {838, 665}}";
+			sepNavSelRange = "{465, 5}";
+			sepNavVisRange = "{0, 721}";
 			sepNavWindowFrame = "{{45, 0}, {1302, 778}}";
 		};
 	};
@@ -307,16 +367,6 @@
 		vrLen = 381;
 		vrLoc = 0;
 	};
-	521B42C912904B3400023F35 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 521B424C1290425E00023F35 /* JCGraphic2DMatrixController.mm */;
-		name = "JCGraphic2DMatrixController.mm: 6";
-		rLen = 0;
-		rLoc = 136;
-		rType = 0;
-		vrLen = 721;
-		vrLoc = 0;
-	};
 	52292465129488D00090C427 /* PBXTextBookmark */ = {
 		isa = PBXTextBookmark;
 		fRef = 52C87A731290510700A1F2CC /* README */;
@@ -325,16 +375,6 @@
 		rLoc = 108;
 		rType = 0;
 		vrLen = 801;
-		vrLoc = 0;
-	};
-	52292467129488D00090C427 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 521B40DA129013A200023F35 /* JCPolygonSet.h */;
-		name = "JCPolygonSet.h: 13";
-		rLen = 222;
-		rLoc = 229;
-		rType = 0;
-		vrLen = 533;
 		vrLoc = 0;
 	};
 	52292469129488D00090C427 /* PBXTextBookmark */ = {
@@ -347,52 +387,12 @@
 		vrLen = 1779;
 		vrLoc = 1327;
 	};
-	529124441296CAC0003977B7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 521B410D1290225800023F35 /* JCPolygonSetView.mm */;
-		name = "JCPolygonSetView.mm: 42";
-		rLen = 50;
-		rLoc = 1381;
-		rType = 0;
-		vrLen = 1362;
-		vrLoc = 429;
-	};
-	529124451296CAC0003977B7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 521B40C01290105C00023F35 /* JCPolygon.mm */;
-		name = "JCPolygon.mm: 1";
-		rLen = 8884;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 1116;
-		vrLoc = 0;
-	};
-	529124471296CAC0003977B7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 521B40BF1290105C00023F35 /* JCPolygon.h */;
-		name = "JCPolygon.h: 1";
-		rLen = 958;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 958;
-		vrLoc = 0;
-	};
 	52C87A731290510700A1F2CC /* README */ = {
 		uiCtxt = {
 			sepNavIntBoundsRect = "{{0, 0}, {838, 448}}";
 			sepNavSelRange = "{108, 0}";
 			sepNavVisRange = "{0, 801}";
 		};
-	};
-	52CF270A1297284300E352E7 /* PBXTextBookmark */ = {
-		isa = PBXTextBookmark;
-		fRef = 521B40BF1290105C00023F35 /* JCPolygon.h */;
-		name = "JCPolygon.h: 1";
-		rLen = 958;
-		rLoc = 0;
-		rType = 0;
-		vrLen = 958;
-		vrLoc = 0;
 	};
 	8D1107260486CEB800E47090 /* Graphic2DMatrixExample */ = {
 		activeExec = 0;
