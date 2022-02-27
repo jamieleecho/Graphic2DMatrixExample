@@ -24,7 +24,7 @@
     NSSize size = self.bounds.size;
 
 	// Set the new viewport size
-	glViewport(0, 0, (GLint)size.width, (GLint)size.height);
+	glViewport(0, 0, (GLint)(size.width * self.window.backingScaleFactor), (GLint)(size.height * self.window.backingScaleFactor));
     
 	// Choose the projection matrix to be the matrix 
 	// manipulated by the following calls
